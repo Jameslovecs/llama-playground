@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Model weights / caches (never commit these)
+*.bin
+*.safetensors
+*.gguf
+.cache/
+models/
+
+# Env / secrets
+.env
+*.token
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
